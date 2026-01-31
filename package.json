@@ -1,0 +1,34 @@
+{
+  "name": "nebula-parallax",
+  "version": "1.0.0",
+  "description": "**Nebula Parallax** is a modern, controller-friendly video editor designed for desktop PCs and handheld devices like the Steam Deck. It focuses on clarity, performance, and accessibility, without the complexity and intimidation of traditional professional NLEs.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Nebula-Project-ZMG/Nebula-Parallax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Nebula-Project-ZMG/Nebula-Parallax/issues"
+  },
+  "homepage": "https://github.com/The-Nebula-Project-ZMG/Nebula-Parallax#readme",
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.9.6",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@nebulaproject/core": "^0.1.3",
+    "@tauri-apps/api": "^2.9.1"
+  }
+}
